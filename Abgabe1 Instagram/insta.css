@@ -1,0 +1,546 @@
+h1 {
+    margin-bottom: 0.25em;
+    padding: 0;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    font-weight: normal; }
+
+h2 { margin-bottom: 0em;}
+
+a {
+    text-decoration: none;
+    color: #0645ad;
+    background: none;}
+
+hr {
+    background: #a2a9b1;
+    border:none;
+    color: #a2a9b1;
+    height: 1px;  }
+
+body { font-family: sans-serif; } 
+
+ol.bedeutung1 {
+  counter-reset:listenpunkt_bedeutung1;
+  list-style-type:none;
+  margin: 0.3em 0; }
+
+ol.bedeutung1 li:before{
+  content: counter(listenpunkt_bedeutung1) "  ";
+  counter-increment:listenpunkt_bedeutung1;
+}
+ol.bedeutung2 {
+  counter-reset:listenpunkt_bedeutung2;
+  list-style-type:none; }
+
+ol.bedeutung2 li:before {
+  content: counter(listenpunkt_bedeutung1)"."counter(listenpunkt_bedeutung2,decimal) ". ";
+  counter-increment:listenpunkt_bedeutung2;
+  padding-left: 15px;}
+
+#inhalt{
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 95%;
+    padding: 7px;
+    display: table;
+    zoom: 1;
+    font-size: 0.875em;
+    line-height: 1.3em;
+}
+.bedeutung1 a {
+    text-decoration: none;
+    background: none;
+    background-repeat: no-repeat;
+    color: #0645ad;
+}
+
+#tabelleh2 {
+    text-align: center;
+    direction: ltr;
+    font-size: 100%;
+    font-family: sans-serif;
+    margin-top: 0.3em;
+    margin-bottom: 0.25em;
+}
+#inhalt ol {
+    text-align: left;
+    list-style-type: none;
+    list-style-image: none;
+    padding: 0;
+    margin: 0.3em 0;
+}
+
+.bedeutung1 li {
+    margin: 0.3em 0;
+}
+#inhalt2 {
+    border: 1px solid #a2a9b1;
+    background-color: #f8f9fa;
+    font-size: 90%;
+    padding: 5px;
+    display: table;
+   
+    float: right;
+    border-collapse: separate;
+    border-spacing: 5px;
+    line-height: inherit;
+    margin: -8.7em 0 1em 1em; 
+    width: 17.8em;
+}
+
+#hintergrundfarbe {  
+    background-color: #b3b7ff;
+}
+#hintergrundfarbe2 {
+    background-color: #eaecf0;
+}
+#hintergrundfarbe3 {
+    vertical-align: top;
+    background-color: #eaecf0;
+    display: table-cell;
+    border-spacing: 5px;
+    font-size: 90%;
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+.link {
+    color: #36b;
+    background-position: center right;
+    background-repeat: no-repeat;
+    padding-right: 13px;
+    text-decoration: none;
+    background: none;
+}
+.unterschrift {
+    font-size: 1.5em;
+    font-family: 'Linux Libertine', 'Georgia', 'Times', serif;
+    line-height: 1.3;
+    font-weight: normal;
+    color: #000;}
+#instalogo {
+    width: 82px;
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color: #f8f9fa;
+    line-height: 0.5em;
+    overflow:hidden;
+    margin: 0.5em 0 1.3em 1.4em;
+    float: right;
+    clear: right; }
+#instalogo p {
+    border:0;
+    line-height: 1.4em;
+    padding: 3px;
+    padding-bottom: 0px;
+    font-size: 80%;
+    text-align: left;
+    font-family: sans-serif;
+    color: #222222; 
+    margin-top: -1px;
+    margin-bottom: 1px;
+    text-align: left;}
+#instaeffekt{
+    width: 292px;
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    background-color:#f8f9fa;
+    text-align: center;
+    overflow: hidden;
+    line-height: 1.6;
+    margin: 1em 0 1.3em 1.4em;
+    width: auto;
+    float: right;
+    clear: right;
+}
+#instaeffekt p {
+    border:0;
+    line-height: 1.4em;
+    padding: 3px;
+    font-size: 80%;
+    text-align: left;
+    font-family: sans-serif;
+    color: #222222; 
+    margin-top: -1px;
+    margin-bottom: 1px; }
+
+#instafilter {
+    width: auto;
+    margin: 0.5em 0 1.3em 1.4em;
+    background-color: #f8f9fa;
+    float: right;
+    line-height: 1.6;
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    overflow: hidden;
+    clear: right; }
+#instafilter p {
+    border:0;
+    line-height: 1.4em;
+    padding: 3px;
+    font-size: 80%;
+    text-align: left;
+    color: #222222;
+    font-family: sans-serif;
+    margin-top: -1px;
+    margin-bottom: 1px;}
+#instacollage {
+    width: auto;
+    margin: 0.5em 0 1.3em 1.4em;
+    background-color: #f8f9fa;
+    float: right;
+    clear:right;
+    line-height: 1.6;
+    border: 1px solid #c8ccd1;
+    padding: 3px;
+    overflow: hidden;}
+#instacollage p {
+    text-align: left;
+    border: 0px;
+    line-height: 1.4em;
+    padding: 3px;
+    font-size: 80%;
+    color: #222222;
+    margin-top: -1px;
+    margin-bottom: 1px; }
+
+b.a {
+    font-weight: bold;
+    border-spacing: 5px;
+    font-size: 90%;
+    text-align: left;
+}
+.b {
+    vertical-align: top;
+}
+.c {
+    vertical-align: top;
+    border-spacing: 5px;
+    font-size: 90%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#tabellequelle {
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    line-height: 1.6;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+#tabellequelle th {
+    background-color: #eaecf0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    font-size: 100%;
+    line-height: 1.6;
+    border-collapse: collapse;
+    border-spacing: 2px;
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+    font-family: sans-serif;
+}
+#tabellequelle td {
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 0.2em 0.4em;
+    line-height: 1.6;
+    font-family: sans-serif;
+}
+caption{
+    font-weight: bold;
+}
+
+div#eins p{
+
+    margin-right: 300px;
+    float: left;
+    z-index: 100;
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+    margin-top: 0em;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 0.875em;
+    line-height: 1.6em;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #000;
+    margin-top: 0.3em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin: 0;
+    padding-top: 0.5em;
+    overflow: hidden;
+}
+
+body {
+    background-image: linear-gradient(to top,#f6f6f6 97%, white); 
+    display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-columns: 160px 1fr;
+    grid-template-rows:  5em 1fr 235px;
+    grid-template-areas: 
+    'header header '
+    'nav main '
+    'footer footer';
+    
+}
+div#abstand {
+    margin-left: 1.25em;
+    margin-top: 1em;
+}
+header {
+    grid-area: header;
+}
+nav {
+    grid-area: nav;
+    background-color: #f6f6f6; 
+    border-right:1px solid #a7d7f9;
+  
+}
+main {
+    grid-area: main;
+    background-color: white;
+    border-top: 1px solid #a7d7f9;
+    border-bottom: 1px solid #a7d7f9;
+}
+footer {
+    background-color: #f6f6f6; 
+    grid-area: footer;
+}
+
+div#nav {
+    font-size: inherit;
+    position: absolute;
+    top: 0;
+    width: 10em;
+    left: 0; }
+
+#wikilogo {
+    display: block;
+    margin-top: 15px;
+    width: 8em;
+    height: 140px;
+    margin-left: 12px;
+    margin-bottom: 0.7em;
+} 
+
+.portal {
+    margin: 0 0.6em 0 0.7em;
+    padding: 0.25em 0;
+}
+.portal1 ul {
+    list-style: none none;
+    margin: 0.5em;
+    padding: 0.3em 0 0 0;
+}
+.portal1 li {
+    list-style: none none;
+    line-height: 1.125em;
+    margin: 0;
+    padding: 0.25em 0;
+    font-size: 0.75em;   
+}
+.portal h3 {
+    font-size: 0.75em;
+    color: #444444;
+    font-weight: normal;
+    margin: 0.5em 0 0 0.66666667em;
+    padding: 0.25em 0;
+    cursor: default;
+    border: 0;
+    margin-top: -0.3em;
+}
+.portal hr {
+    margin-left: 0.5em;
+    margin-top: -0.1em;
+    margin-bottom: -0.5em;
+}
+#footer {
+    margin-left: 7.5em;
+    margin-top: -1em;
+    padding: 0.75em;
+    direction: ltr;
+}
+#footer li {
+    color: #222;
+    margin: 0;
+    padding: 0.5em 0;
+    font-size: 0.7em;
+    list-style: none;
+}
+#footer-info li {
+    line-height: 1.4em; 
+}
+#footer-places {
+    margin-left: 8.2em;
+    margin-top: -1em;    
+}
+#footer-places li {
+    float: left;
+    margin-right: 1em;
+    line-height: 2em;
+    font-size: 0.7em;
+    list-style: none; 
+}
+#head {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+#personal {
+    position: absolute;
+    top: 0.33em;
+    right: 0.75em;
+    z-index: 100;
+    color: #54595d;
+    margin-top: 0.6em;
+    margin-right: 0em;
+ }
+
+#personal ul {
+    list-style: none none;
+    margin: 0;
+    padding-left: 10em;}
+
+#personal li {
+    float: left;
+    margin-left: 0.75em;
+    font-size: 0.75em;
+    line-height: 1.16666667em;}
+#navigation {
+    float: left;
+    margin-left: 10em;
+    margin-top: 2.5em;
+    margin-bottom: -2.5em; }
+
+
+
+
+#NavigationimHeader {
+    float: left;
+    margin-left: 10em;
+    margin-top: 2.5em;
+    margin-bottom: -2.5em; }
+
+.links {
+    float: left;
+    height: 2.5em;
+    padding-left: 1px;
+    
+}
+.links li {
+    float: left;
+    line-height: 1.125em;
+    display: block;
+    height: 100%;
+    margin: 0;
+    padding: 0;   
+}
+.links ul{ 
+    float: left;
+    height: 100%;
+    list-style: none none;
+    margin: 0;
+    padding: 0;
+}
+.oben {
+    float: left;
+    display: block;
+    position: relative;
+    padding-top: 1.8em;
+    height: 1.9em;
+    padding-left: 0.615em;
+    padding-right: 0.615em;
+    font-size: 0.8125em;
+    line-height: 1.125em;
+    font-family: sans-serif;
+    background-image: linear-gradient(0deg,aliceblue 20%, #f6f6f6 40%,#ffffff30) ;
+    border-left: 1px solid lightblue;
+}
+
+#anfang { margin-left: 5.5px; }
+.rechterrand span { border-right: 1px solid lightblue; }
+
+#right {
+    float: right;
+    margin-top: -1.5em; }
+
+#WikipediaUntersuchen {
+    display: block;
+    width: 20em;
+    min-width: 5em;
+    max-width: 20em;
+    height: 100%;
+    position: relative;
+    min-height: 1px;
+    float: right;
+    margin-left: 52em; }
+
+#WikipediaUntersuchen input {
+    background-color: rgba(0,0,0,0);
+    color: #000;
+    margin: 0; }
+
+#searchinput {
+    width: 82%;
+    box-sizing: border-box;
+    border: 1px solid #a2a9b1;
+    border-radius: 2px;
+    padding: 0.4em 1.818em 0.4em 0.4em;
+    font-size: 0.8125em;    }
+
+li#rechteNavigation {
+    margin-left: 380px;
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
